@@ -1,0 +1,28 @@
+.container{
+    margin: 25px 0;
+    height: 1em;
+}
+
+.card {
+    margin: 0 2% !important;
+}
+
+.infected {
+    background-color: #2874A6 !important;
+}
+.headerTitle{
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.recovered {
+    background-color: #E74C3C !important;
+}
+.deaths {
+    background-color: #16A085 !important;
+}
+
+@media (max-width: 770px){
+    .card{
+        margin: 2% 0 !important;
+    }
+}
