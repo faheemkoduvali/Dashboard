@@ -4,8 +4,8 @@ import Charts from './Charts';
 function ContentPage({pages}) {
     return (
         <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class = "col-lg-12">
+            <div className="container-fluid">
+                <div className = "col-lg-12">
                     {pages}
                 </div>
             </div>
