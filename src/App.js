@@ -19,7 +19,6 @@ function App() {
       }
       else
       { 
-        console.log("relative");
         var element = document.getElementById("wrapper");
         element.style.cssText = 'position:relative !important';
       }

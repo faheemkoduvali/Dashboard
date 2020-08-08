@@ -3,7 +3,7 @@
     height: 100%;
 }
 #sidebar-wrapper {
-    transition: 2s;
+    transition: 1.5s;
     z-index: 1;
     position: absolute;
     width: 60px;
@@ -15,7 +15,7 @@
 
 #page-content-wrapper {
     height: 100%;
-    transition: 2s;
+    transition: 1.5s;
     width: 100%;
     position: inherit;
     padding: 15px;
@@ -25,12 +25,12 @@
 
 
 #wrapper.menuDisplayed #sidebar-wrapper {
-    transition: 2s;
+    transition: 1.5s;
     width: 200px;
 }
 
 #wrapper.menuDisplayed #page-content-wrapper {
-    transition: 2s;
+    transition: 1.5s;
     padding-left: 200px;
     
 }
