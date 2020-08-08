@@ -7,9 +7,9 @@ import NavbarSection from './Components/NavbarSection';
 import Sidebar from './Components/Sidebar';
 import ContentPage from './Components/ContentPage';
 import $ from "jquery"
-import { Table } from '@material-ui/core';
 
 function App() {
+  document.getElementById("wrapper").style.position
   const pages= [<Dashboard />,<Charts/>,<Tables />]
   const [active,setActive] = useState(["active","",""])
   const activeHandler=useCallback(
@@ -19,7 +19,8 @@ function App() {
         document.getElementById("wrapper").style.position = "unset";
       }
       else
-        document.getElementById("wrapper").style.position = "realtive";
+      { console.log("relative");
+        document.getElementById("wrapper").style.position = "realtive";}
     },
     [active]
   );

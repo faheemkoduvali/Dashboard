@@ -61,22 +61,6 @@
 }
 
 
-/*DashBoard Chart*/
-.dash-chart {
-    position: relative;
-    margin-top: em;
-    display: block;
-}
-.dash-chart-left {
-    float: left;
-    width:50% !important;
-    display: block;
-}
-.dash-chart-right {
-    float: right;
-    width:50% !important;
-    display: inline-block;
-}
 
 /*Chart*/
 .mdbcontainer {

@@ -6,11 +6,10 @@ import { faHeart, faComment, faCaretLeft, faCaretRight, faBars } from '@fortawes
 
 function NavbarSection() {
     const [count,setCount]=useState(0)
-    const [prev,setPrev]=useState(["  Accounts","  Settings"," logOut"])
+    const [prev,setPrev]=useState(["    Dashboard","    Charts","   Table"])
     const [icon,setIcon]=useState(faCaretRight)
     function handleClick()
     {
-        console.log("clicked")
         var x = document.getElementById("menu-item-1").innerHTML
         var y = document.getElementById("menu-item-2").innerHTML
         var z = document.getElementById("menu-item-3").innerHTML
@@ -28,7 +27,6 @@ function NavbarSection() {
             document.getElementById("menu-item-2").innerHTML=prev[1]
             document.getElementById("menu-item-3").innerHTML=prev[2]
         }
-            console.log(x)
         $("#wrapper").toggleClass("menuDisplayed");
         if (icon == faCaretRight)
             setIcon(faCaretLeft)
