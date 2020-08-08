@@ -18,8 +18,11 @@ function App() {
         document.getElementById("wrapper").style.position = "unset";
       }
       else
-      { console.log("relative");
-        document.getElementById("wrapper").style.position = "realtive";}
+      { 
+        console.log("relative");
+        var element = document.getElementById("wrapper");
+        element.style.cssText = 'position:relative !important';
+      }
     },
     [active]
   );
