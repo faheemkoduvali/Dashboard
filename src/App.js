@@ -9,7 +9,6 @@ import ContentPage from './Components/ContentPage';
 import $ from "jquery"
 
 function App() {
-  document.getElementById("wrapper").style.position
   const pages= [<Dashboard />,<Charts/>,<Tables />]
   const [active,setActive] = useState(["active","",""])
   const activeHandler=useCallback(
